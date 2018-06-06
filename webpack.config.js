@@ -5,7 +5,7 @@ module.exports = {
     target: 'node',
     entry: './lib/box-node-sdk.js',
     output: {
-        path: path.resolve(__dirname, 'build'),
+        path: path.resolve(__dirname, './'),
         filename: 'bundle.js'
     },
     module: {
